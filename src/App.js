@@ -9,11 +9,14 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
+      <div className="background-image"></div>
+      <div className="content">
       <Navbar/>
       <Home/>
       <Forecast/>
       <News/>
       <Contact/>
+      </div>
     </div>
   );
 }
