@@ -11,20 +11,21 @@ const Contact = () => {
       <form>
         <div className="input_row">
           <div className="input-group">
-            <label>Name</label>
+        
             <input type='text' placeholder='Enter your Name'/>
           </div>
           <div className="input-group">
-            <label>Phone</label>
-            <input type='number' placeholder='Enter your Name'/>
+    
+            <input type='number' placeholder='Enter your Phone no'/>
           </div>
           <div className="input-group">
-            <label>Email</label>
-            <input type='email' placeholder='Enter your Name'/>
+      
+            <input type='email' placeholder='Enter your email'/>
           </div>
+          <br/>
           <div className="input-group">
-            <label>Your Query</label>
-            <textarea rows='5' placeholder='Enter your Name'/>
+          
+            <textarea rows='5' placeholder='Your Feedback'/>
           </div>
         </div>
         <button className='contact-btn'>Send</button>

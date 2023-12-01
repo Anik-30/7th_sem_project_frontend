@@ -4,7 +4,7 @@
   }
   .contact-box{
     display: flex ;
-    border: 2px solid #ffc107;
+    border: 2px solid #000;
     margin-left: 10%;
     margin-top: 20px;
   }
@@ -19,8 +19,8 @@
   .contact-right{
     flex-basis: 40%;
     padding: 50px;
-    background: #c1690c;
-    color: #ffc107;
+    background: #000;
+    color: #fff;
   }
   
   .input-row{
@@ -38,9 +38,12 @@
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    
   }
-  
+  .input-group{
+    gap: 10px;
+  }
   textarea{
     width: 100%;
     outline: none;
@@ -55,7 +58,7 @@
   
   .contact-btn{
     width: 100px;
-    background-color: #c1690c;
+    background-color: #000;
     border: none;
     outline: none;
     color: #fff;

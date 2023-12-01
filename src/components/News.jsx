@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/news.css'
+import image1 from '../images/weather.jpg'
 const News = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const News = () => {
         </div>
       </div>
       <div class="cardnews" styles={"width: 18rem;"}>
-        <img src="..." class="cardnews-img-top" alt="..." />
+        <img src={image1} class="cardnews-img-top" alt="..." />
         <div class="cardnews-body">
           <h5 class="cardnews-title">cardnews title</h5>
           <p class="cardnews-text">
