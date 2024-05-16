@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
     <div className="footer-content">
       <h3>Weather Appliation</h3>
-      <p>Lorem ipsum door sit, ami ki na tui elite.hain kno bhalo na</p>
+      <p>Vatavaran, Your futuristic weather forecasting app</p>
     <ul className='socials'>
       <li><a href="#"><i className="fa fa-facebook"></i></a></li>
       <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
     </ul>
     </div>
     <div className='footer-bottom'>
-      <p>copyright &copy;2023 weatheApplication. designed by<span>Anik</span></p>
+      <p>copyright &copy;2024 Vatavaran. designed by<span>Anik</span></p>
     </div>
     </footer>
   )

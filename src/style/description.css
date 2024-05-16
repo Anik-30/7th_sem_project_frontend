@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--section-overlay);
+    color: #fff !important;
     padding: 1rem;
     border-radius: 0.4rem;
 }

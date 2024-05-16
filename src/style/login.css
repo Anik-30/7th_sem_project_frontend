@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.loginform {
+    background: linear-gradient(90deg, rgba(108, 84, 84, 0.9), rgba(69, 52, 52, 0.35)),
+                url(../images/weather.jpg) no-repeat;
+    background-size: cover; 
+    width: 100%; 
+    height: 720px; 
+}
+
+.formbox {
+    width: 300px;
+    height: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.2); /* Transparent background with hazy effect */
+    /* border: 2px solid #fff; */
+    text-align: center;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.formbox h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.formbox input[type="email"],
+.formbox input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 15px 12px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: .25s;
+}
+
+.formbox input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px 6px;
+    width: 100px;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.formbox input[type="submit"]:hover {
+    background-color: rgb(40, 100, 123);
+    color: #000;
+}
+
+.p {
+    text-decoration: none;
+}
+
+
+.loader {
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+  }
+  .loader::before {
+    content: '';  
+    position: absolute;
+    right: 70px;
+    bottom: 10px;
+    height: 28px;
+    width: 5.15px;
+    background: currentColor;
+    box-sizing: border-box;
+    animation: animloader1 1s linear infinite alternate;
+  }
+  .loader::after {
+    content: '';  
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 125px;
+    top: 2px;
+    border-radius: 50%;
+    background: red;
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite alternate;
+  }
+  
+  @keyframes animloader {
+    0% {
+      transform: translate(0px, 0px) scaleX(1);
+    }
+    14% {
+      transform: translate(-12px, -16px) scaleX(1.05);
+    }
+    28% {
+      transform: translate(-27px, -28px) scaleX(1.07);
+    }
+    42% {
+      transform: translate(-46px, -35px) scaleX(1.1);
+    }
+    57% {
+      transform: translate(-70px, -37px) scaleX(1.1);
+    }
+    71% {
+      transform: translate(-94px, -32px) scaleX(1.07);
+    }
+    85% {
+      transform: translate(-111px, -22px) scaleX(1.05);
+    }
+    100% {
+      transform: translate(-125px, -9px) scaleX(1);
+    }
+  }
+  
+  @keyframes animloader1 {
+    0% {
+      box-shadow: 0 -6px, -122.9px -8px;
+    }
+    25%, 75% {
+      box-shadow: 0 0px, -122.9px -8px;
+    }
+    100% {
+      box-shadow: 0 0px, -122.9px -16px;
+    }
+  }

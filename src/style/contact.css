@@ -1,10 +1,12 @@
 .contact-container{
     width: 80%;
     margin: 80px;
+
   }
   .contact-box{
     display: flex ;
     border: 2px solid #000;
+    border-radius: 25px;
     margin-left: 10%;
     margin-top: 20px;
   }
@@ -14,6 +16,16 @@
   .contact-left{
     flex-basis: 60%;
     padding: 40px ;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 290px;
+    outline: none;
+    color: #fff;
+    transition: .25s;
   }
   
   .contact-right{
@@ -34,7 +46,8 @@
   }
   
   input{
-    width: 100%;
+    width: 60%;
+    border-radius: 25px;
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;

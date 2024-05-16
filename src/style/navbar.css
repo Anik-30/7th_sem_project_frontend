@@ -1,3 +1,68 @@
-.navbar {
-    background-color: aqua;
+/* /* .navbar {
+    color: #fff;
   }
+
+  .navbar-brand{
+    margin-left: 40px;
+  }
+  .navbar-nav{
+    margin-left: 25%;
+    gap: 40px;
+  } 
+  .navbar {
+    background: linear-gradient(90deg, rgba(108, 84, 84, 0.9), rgba(69, 52, 52, 0.35)),
+                url(../images/weather.jpg) no-repeat;
+    background-size: cover; 
+    color: #fff;
+    background-color: rgb(88, 62, 62); /* Transparent background with hazy effect 
+}
+
+.navbar-brand {
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    margin-left: 25%;
+    gap: 40px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+} */
+
+.navbar {
+  background: linear-gradient(90deg, rgba(108, 84, 84, 0.9), rgba(69, 52, 52, 0.35)),
+              url(../images/weather.jpg) no-repeat;
+  background-size: cover; 
+  color: #fff;
+  background-color: rgb(88, 62, 62); /* Transparent background with hazy effect */
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+.navbar-nav {
+  margin-left: 25%;
+  /* width: 80%; */
+  gap: 40px;
+}
+
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  background-color: rgba(88, 62, 62, 0.9); 
+  border: none; /* Remove border */
+}
+
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
